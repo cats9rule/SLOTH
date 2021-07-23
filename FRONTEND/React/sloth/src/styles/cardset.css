@@ -1,0 +1,13 @@
+@media (max-width: 511px) {
+    .cardset-responsive {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+@media (min-width: 512px) and (max-width: 1440px)   {
+    .cardset-responsive {
+        display: flex;
+        flex-direction: row;
+    }
+}

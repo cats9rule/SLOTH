@@ -1,0 +1,56 @@
+{
+  "name": "sloth",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@jaames/iro": "^5.5.1",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "@testing-library/jest-dom": "^5.11.10",
+    "@testing-library/react": "^11.2.6",
+    "@testing-library/user-event": "^12.8.3",
+    "bootstrap": "^4.6.0",
+    "draft-js": "^0.11.7",
+    "flatpickr": "^4.6.9",
+    "install": "^0.13.0",
+    "jquery": "^3.6.0",
+    "material-design-icons": "^3.0.1",
+    "notie": "^4.3.1",
+    "npm": "^7.11.2",
+    "popper.js": "^1.16.1",
+    "react": "^17.0.2",
+    "react-awesome-calendar": "^1.0.14",
+    "react-bootstrap": "^1.5.2",
+    "react-confirm-alert": "^2.7.0",
+    "react-dom": "^17.0.2",
+    "react-flatpickr": "^3.10.7",
+    "react-scripts": "4.0.3",
+    "suneditor": "^2.41.0",
+    "suneditor-react": "^3.1.2",
+    "web-vitals": "^1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

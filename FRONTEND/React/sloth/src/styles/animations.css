@@ -1,0 +1,69 @@
+.animation-fadeInUp {
+    transition: 0.5;
+    animation: fadeInUp linear 0.7s;
+}
+@keyframes fadeInUp {
+    0% {opacity:0; transform: translateY(20%);}
+    100% {opacity:1;}
+}
+
+.animation-fadeIn {
+    transition: 0.5;
+    animation: fadeIn linear 0.7s;
+}
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+.animation-fadeInLeft {
+    transition: 0.3s;
+    animation: fadeInLeft linear 0.5s;
+}
+@keyframes fadeInLeft {
+    0% {opacity:0; transform: translateX(20%) scale(0.7);}
+    100% {opacity:1;}
+}
+
+.animation-fadeOutLeft {
+    transition: 0.3s;
+    animation: fadeOutLeft linear 0.5s;
+}
+@keyframes fadeOutLeft {
+    0% {opacity:1;}
+    100% {opacity:0;  transform: translateX(-20%) scale(0.7);}
+}
+
+.animation-slideInLeft {
+    transition: 0.2s;
+    animation: slideInLeft linear 0.4s;
+}
+@keyframes slideInLeft {
+    0% {opacity:0;   transform: translateX(20%);}
+    100% {opacity:1;}
+}
+.animation-slideOutLeft {
+    transition: 0.2s;
+    animation: slideOutLeft linear 0.4s;
+}
+@keyframes slideOutLeft {
+    0% {opacity:1;}
+    100% {opacity:0;  transform: translateX(-20%);}
+}
+
+.animation-slideInRight {
+    transition: 0.2s;
+    animation: slideInRight linear 0.4s;
+}
+@keyframes slideInRight {
+    0% {opacity:0;   transform: translateX(-20%);}
+    100% {opacity:1;}
+}
+.animation-slideOutRight {
+    transition: 0.2s;
+    animation: slideOutRight linear 0.4s;
+}
+@keyframes slideOutRight {
+    0% {opacity:1;}
+    100% {opacity:0;  transform: translateX(20%);}
+}

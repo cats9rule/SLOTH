@@ -1,0 +1,48 @@
+.studyplan{
+    max-width: 50%;
+    margin: 5px;
+    background-color:rgb(180, 252, 86)
+}
+.studyplan:hover{
+    background-color:rgb(187, 187, 187)
+}
+.studyplans{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.timer {
+    
+}
+.times {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.workTime, .breakTime{
+    margin: 2px;
+}
+.workTime{
+    margin-right:5px;
+}
+.breakTime{
+    margin-left: 5px;
+}
+
+.digits{
+    font-family: 'Arimo', sans-serif;
+    -webkit-touch-callout: none;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+    font-size: x-large;
+}
+
+@media (max-width: 768px)
+{
+    .digits{
+        font-size: medium;
+    }
+}

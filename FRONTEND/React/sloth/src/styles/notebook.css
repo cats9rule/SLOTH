@@ -1,0 +1,16 @@
+@media (max-width: 797px) {
+    h5 {
+        font-size: small;
+        font-weight: bold;
+    }
+    h6 {
+        font-size: small;
+        font-weight: bold;
+    }
+    p {
+        font-size: small;
+    }
+    ul {
+        font-size: small;
+    }
+}
